@@ -42,3 +42,16 @@ resource "azurerm_windows_virtual_machine" "vm" {
     version   = "latest"
   }
 }
+resource "azurerm_virtual_machine_extension" "iis" {
+  name                 = "iis-install"
+  virtual_machine_id   = azurerm_windows_virtual_machine.vm.id
+  publisher            = "Microsoft.Compute"
+  type                 = "CustomScriptExtension"
+  type_handler_version = "1.10"
+
+  settings = <<SETTINGS
+  {
+    "commandToExecute": "powershell.exe Install-WindowsFeature -name Web-Server"
+  }
+  SETTINGS
+}
