@@ -59,11 +59,9 @@ Purpose
 This environment simulates a real small-business infrastructure before migration to Azure.
 
 Add screenshots here
-`![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/vbox.png?raw=true)`
-`![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/ServerManager.png?raw=true)`
-`![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/provejoining.png?raw=true)`
-
-
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/vbox.png?raw=true)
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/ServerManager.png?raw=true)
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/provejoining.png?raw=true)
 
 
 
