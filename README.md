@@ -32,7 +32,7 @@ Total Estimated Monthly Cost
 
 # Architecture Diagram
 
-`![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/ChatGPT%20Image%20May%2024,%202026,%2003_18_11%20PM.png?raw=true)`
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/ChatGPT%20Image%20May%2024,%202026,%2003_18_11%20PM.png?raw=true)
 
 
 # Project Structure
@@ -51,9 +51,9 @@ Infrastructure Setup
 The on-premises lab environment was built using Oracle VirtualBox to simulate a small enterprise infrastructure.
 
 Components:-
+- Vbox Internal Virtual Network
 - Windows Server 2022
 - Windows 10 Client Machine
-- Internal Virtual Network
 Purpose
 
 This environment simulates a real small-business infrastructure before migration to Azure.
@@ -85,7 +85,10 @@ Purpose
 The domain environment was created to simulate enterprise identity management before hybrid cloud integration.
 
 Add screenshots here
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/DNSOU.png?raw=true)
 `![AD DS Screenshot](./screenshots/adds.png)`
+`![AD DS Screenshot](./screenshots/adds.png)`
+
 
 
 ### Phase 3 — File Share Infrastructure
@@ -106,6 +109,9 @@ Purpose :-
 This phase simulates departmental shared storage commonly used in enterprise environments.
 
 Add screenshots here
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/FileshareTorageService.png?raw=true)
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/fileshareappear.png?raw=true)
 
 
 
@@ -130,6 +136,9 @@ This database simulates a lightweight ERP backend hosted on-premises before migr
 
 Add screenshots here
 
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/SSMSconnectionwindow.png?raw=true)
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/TablesCustomers.png?raw=true)
 
 ### Phase 5 — ERP IIS Web Application
 IIS Deployment
@@ -150,6 +159,12 @@ This phase simulates an internally hosted ERP web application running on IIS bef
 
 Add screenshots here
 
+
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/IIS-ERPWEB.png?raw=true)
+
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/erpbeowser.png?raw=true)
 
 ------------------------------------------------------------------------------------------------------
 
@@ -176,6 +191,13 @@ This phase enabled hybrid identity management and centralized cloud authenticati
 Add screenshots here
 
 
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/closeronprimeconnection.png?raw=true)
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/wowsuccerrorrno.png?raw=true)
+
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/syncAD.png?raw=true)
+
 ### Phase 7 — SQL Database Migration
 Azure SQL Deployment
 
@@ -189,15 +211,8 @@ Configured Azure SQL firewall rules to allow on-premises connectivity during mig
 
 Migration Strategy
 
-Two migration methods were evaluated:
 
-Option 1 — Export as BACPAC
-
-Used for:
-
-- Larger databases
-- Backup-style migration workflows
-Option 2 — Deploy to Azure SQL Database
+Deploy to Azure SQL Database
 
 Used for:
 
@@ -220,14 +235,13 @@ Connection String Update
 
 After migration, the ERP application connection string was updated to use Azure SQL Database.
 
-
-Server=tcp:consoleltd.database.windows.net,1433; 
+Server=tcp:consoleltd.database.windows.net,1433;  
 Database=ERP_DB;
 User ID=sqladmin;
-Password=YourPassword123!;
+Password=YourPassword123!; 
 Encrypt=true;
 TrustServerCertificate=false;
-Connection Timeout=30;```
+Connection Timeout=30;
 
 Result :-
 
@@ -235,6 +249,11 @@ The ERP database was successfully migrated from on-premises SQL Server to Azure 
 
 Add screenshots here
 
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/connectingonprimesqlstep7.png?raw=true)
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/CompleteDbToAzureDb.png?raw=true)
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/CompletedSyncDatabaseOnprime.png?raw=true)
 
 ### Phase 8 — IIS ERP Application Migration
 Migration Strategy
@@ -269,6 +288,9 @@ The ERP application became fully operational from Azure infrastructure.
 Add screenshots here
 
 
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/iisfromazurepublicvm.png?raw=true)
+
+
 ### Phase 9 — File Share Migration
 Azure Storage Deployment
 
@@ -292,6 +314,25 @@ This phase enabled centralized cloud-based file storage with simplified accessib
 Add screenshots here
 
 
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/realtyfilesharestoragezure.png?raw=true)
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/filesharefromonpeime.png?raw=true)
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/filesshareappearonpc.png?raw=true)
+
+
+### Phase 9 — Securte Connectivty
+
+- Network Securty Group 
+    Allow Https  port 80
+- firewall Rule
+    Allow on-primes ip server to access azure database      
+
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/NSGForIISVMWebsite.png?raw=true)
+
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/filesshareappearonpc.png?raw=true)
 
 -------------------------------------------------------------------------------------------------------
 
@@ -323,6 +364,10 @@ Benefits:-
 - Resource utilization analysis
 
 Add screenshots here
+
+
+
+
 
 Migration Outcome:-
 
