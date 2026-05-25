@@ -58,7 +58,6 @@ Purpose
 
 This environment simulates a real small-business infrastructure before migration to Azure.
 
-Add screenshots here
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/vbox.png?raw=true)
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/ServerManager.png?raw=true)
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/provejoining.png?raw=true)
@@ -84,10 +83,10 @@ Purpose
 
 The domain environment was created to simulate enterprise identity management before hybrid cloud integration.
 
-Add screenshots here
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/LocalServer.png?raw=true)
+
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/DNSOU.png?raw=true)
-`![AD DS Screenshot](./screenshots/adds.png)`
-`![AD DS Screenshot](./screenshots/adds.png)`
+
 
 
 
@@ -108,7 +107,6 @@ Purpose :-
 
 This phase simulates departmental shared storage commonly used in enterprise environments.
 
-Add screenshots here
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/FileshareTorageService.png?raw=true)
 
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/fileshareappear.png?raw=true)
@@ -134,7 +132,6 @@ Purpose
 
 This database simulates a lightweight ERP backend hosted on-premises before migration to Azure SQL Database.
 
-Add screenshots here
 
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/SSMSconnectionwindow.png?raw=true)
 
@@ -157,7 +154,6 @@ Purpose
 
 This phase simulates an internally hosted ERP web application running on IIS before migration to Azure Virtual Machines.
 
-Add screenshots here
 
 
 
@@ -188,7 +184,6 @@ Purpose
 
 This phase enabled hybrid identity management and centralized cloud authentication.
 
-Add screenshots here
 
 
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/closeronprimeconnection.png?raw=true)
