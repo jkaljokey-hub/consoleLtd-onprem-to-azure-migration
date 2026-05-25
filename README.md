@@ -160,7 +160,7 @@ This phase simulates an internally hosted ERP web application running on IIS bef
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/IIS-ERPWEB.png?raw=true)
 
 
-![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/erpbeowser.png?raw=true)
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/browsererpbk.png?raw=true)
 
 ------------------------------------------------------------------------------------------------------
 
@@ -250,6 +250,8 @@ Add screenshots here
 
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/CompletedSyncDatabaseOnprime.png?raw=true)
 
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/REAlDVAZURE.png?raw=true)
+
 ### Phase 8 — IIS ERP Application Migration
 Migration Strategy
 
@@ -316,7 +318,7 @@ Add screenshots here
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/filesshareappearonpc.png?raw=true)
 
 
-### Phase 9 — Securte Connectivty
+### Phase 9 — Secure Connectivty
 
 - Network Securty Group 
     Allow Https  port 80
@@ -327,7 +329,7 @@ Add screenshots here
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/NSGForIISVMWebsite.png?raw=true)
 
 
-![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/filesshareappearonpc.png?raw=true)
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/AllowIpOnprimeToFirewalldatabse.png?raw=true)
 
 -------------------------------------------------------------------------------------------------------
 
