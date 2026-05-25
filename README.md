@@ -32,7 +32,7 @@ Total Estimated Monthly Cost
 
 # Architecture Diagram
 
-`![AD DS Screenshot](./screenshots/adds.png)`
+`![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/ChatGPT%20Image%20May%2024,%202026,%2003_18_11%20PM.png?raw=true)`
 
 
 # Project Structure
@@ -59,9 +59,9 @@ Purpose
 This environment simulates a real small-business infrastructure before migration to Azure.
 
 Add screenshots here
-`![AD DS Screenshot](./screenshots/adds.png)`
-`![AD DS Screenshot](./screenshots/adds.png)`
-`![AD DS Screenshot](./screenshots/adds.png)`
+`![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/vbox.png?raw=true)`
+`![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/ServerManager.png?raw=true)`
+`![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/provejoining.png?raw=true)`
 
 
 
@@ -87,6 +87,7 @@ Purpose
 The domain environment was created to simulate enterprise identity management before hybrid cloud integration.
 
 Add screenshots here
+`![AD DS Screenshot](./screenshots/adds.png)`
 
 
 ### Phase 3 — File Share Infrastructure
