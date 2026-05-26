@@ -330,49 +330,46 @@ This phase enabled centralized cloud-based file storage with simplified accessib
 -------------------------------------------------------------------------------------------------------
 
 ## Part 3 — Azure Cloud Infrastructure
-Now Azure Services Used :-
-- Microsoft Entra ID
-- Azure Virtual Machines
-- Azure SQL Database
-- Azure Storage Account
-- Azure Files
-- Azure Monitor
-- Application Insights
-- Network Security Groups
-- Virtual Networks
-
-
-
-
-
- ### Infrastructure as Code
- 
-
-Terraform was used to provision selected Azure infrastructure components including:
 ```
-- Resource Groups
-- Virtual Networks
-- Network Security Groups
-- Azure Virtual Machines
-- File share
-- Sql Server
-- Sql database
-- azure monitor
-
-Terraform files are available in:
-
-/terraform
+consoleLtd-onprem-to-azure-migration/
+│
+├── terraform/
+│   ├── backend.tf
+│   ├── main.tf
+│   ├── providers.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   └── modules/
+│       ├── network/
+│       ├── vm/
+│       ├── sql/
+│       ├── storage/
+│       ├── fileshare/
+│       └── monitor/
+│
+├── erp-app/
+│   ├── wwwroot/
+│   │   ├── default.html
+│   │   ├── login.html
+│   │   ├── css/
+│   │   └── js/
+│   └── README.md
+│
+└── README.md
 
 ```
 
 
-### ERP Web Application
+Run Commands
+```
+terraform init
+terraform plan
+terraform apply -auto-approve
+terraform destroy -auto-approve
 
-A lightweight IIS-based ERP web application was created to simulate a real internal business application.
 
-The application source code is available in:
+```
 
-``` /erp-webapp ```
 
 
 
