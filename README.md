@@ -1,10 +1,9 @@
 # Overview
 
-ConsoleLtd is a small trading company with approximately 35 employees operating entirely from a single on-premises office environment.
+Console.Ltd is a small trading company with approximately 35 employees operating entirely from a single on-premises office environment.
 
 The infrastructure was aging, difficult to scale, lacked centralized monitoring, and required significant manual maintenance. To modernize the environment and improve reliability, scalability, monitoring, and disaster recovery readiness, the company decided to migrate its workloads to Microsoft Azure.
 
-This project demonstrates a complete enterprise-style migration from an on-premises infrastructure to Microsoft Azure using a hybrid migration approach.
 
 # Project Objectives
 - Modernize legacy on-premises infrastructure
@@ -229,7 +228,7 @@ Validated successful deployment
 Connection String Update
 
 After migration, the ERP application connection string was updated to use Azure SQL Database.
-
+```
 Server=tcp:consoleltd.database.windows.net,1433;  
 Database=ERP_DB;
 User ID=sqladmin;
@@ -237,7 +236,7 @@ Password=YourPassword123!;
 Encrypt=true;
 TrustServerCertificate=false;
 Connection Timeout=30;
-
+```
 Result :-
 
 The ERP database was successfully migrated from on-premises SQL Server to Azure SQL Database.
@@ -415,6 +414,12 @@ After successful validation:
 - Legacy infrastructure dependencies were reduced
 
 
+## 🎯 Conclusion
+
+This project demonstrates a full enterprise migration from legacy on‑premises infrastructure to a modern, secure, cloud‑based environment using Microsoft Azure and Microsoft Entra ID.
+
+## Author
+Abubakar – abubakaralnour43@gmail.com
 
 
 
