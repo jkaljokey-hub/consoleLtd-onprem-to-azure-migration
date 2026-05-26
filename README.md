@@ -241,7 +241,6 @@ Result :-
 
 The ERP database was successfully migrated from on-premises SQL Server to Azure SQL Database.
 
-Add screenshots here
 
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/connectingonprimesqlstep7.png?raw=true)
 
@@ -281,7 +280,6 @@ Result
 
 The ERP application became fully operational from Azure infrastructure.
 
-Add screenshots here
 
 
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/iisfromazurepublicvm.png?raw=true)
@@ -307,7 +305,6 @@ Purpose
 
 This phase enabled centralized cloud-based file storage with simplified accessibility and scalability.
 
-Add screenshots here
 
 
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/realtyfilesharestoragezure.png?raw=true)
