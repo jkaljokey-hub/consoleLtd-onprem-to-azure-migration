@@ -1,6 +1,6 @@
 # Overview
 
-Console.Ltd is a small trading company with approximately 35 employees operating entirely from a single on-premises office environment.
+Console.Ltd is a small trading company with approximately 25 employees operating entirely from a single on-premises office environment.
 
 The infrastructure was aging, difficult to scale, lacked centralized monitoring, and required significant manual maintenance. To modernize the environment and improve reliability, scalability, monitoring, and disaster recovery readiness, the company decided to migrate its workloads to Microsoft Azure.
 
