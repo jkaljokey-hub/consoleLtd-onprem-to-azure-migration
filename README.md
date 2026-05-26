@@ -334,7 +334,7 @@ Add screenshots here
 -------------------------------------------------------------------------------------------------------
 
 ## Part 3 — Azure Cloud Infrastructure
-Azure Services Used :-
+Now Azure Services Used :-
 - Microsoft Entra ID
 - Azure Virtual Machines
 - Azure SQL Database
@@ -345,7 +345,44 @@ Azure Services Used :-
 - Network Security Groups
 - Virtual Networks
 
- Monitoring & Observability :-
+
+
+
+
+ ### Infrastructure as Code
+ 
+
+Terraform was used to provision selected Azure infrastructure components including:
+```
+- Resource Groups
+- Virtual Networks
+- Network Security Groups
+- Azure Virtual Machines
+- File share
+- Sql Server
+- Sql database
+- azure monitor
+
+Terraform files are available in:
+
+/terraform
+
+```
+
+
+### ERP Web Application
+
+A lightweight IIS-based ERP web application was created to simulate a real internal business application.
+
+The application source code is available in:
+
+``` /erp-webapp ```
+
+
+
+
+
+Monitoring & Observability :-
 Centralized monitoring was implemented using Azure monitoring services.
 
 Monitoring Components :-
@@ -360,7 +397,7 @@ Benefits:-
 - Infrastructure performance tracking
 - Resource utilization analysis
 
-Add screenshots here
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/monitorInsight.png?raw=true)
 
 
 
